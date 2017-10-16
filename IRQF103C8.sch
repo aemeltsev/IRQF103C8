@@ -12418,24 +12418,24 @@ decoupling capacitors</text>
 <wire x1="256.54" y1="139.7" x2="121.92" y2="139.7" width="0.4064" layer="98" style="longdash"/>
 <wire x1="121.92" y1="139.7" x2="121.92" y2="203.2" width="0.4064" layer="98" style="longdash"/>
 <text x="124.46" y="198.12" size="2.54" layer="98" font="vector" ratio="15">Power</text>
-<wire x1="121.92" y1="134.62" x2="256.54" y2="134.62" width="0.4064" layer="98" style="longdash"/>
-<wire x1="256.54" y1="134.62" x2="256.54" y2="53.34" width="0.4064" layer="98" style="longdash"/>
-<wire x1="256.54" y1="53.34" x2="121.92" y2="53.34" width="0.4064" layer="98" style="longdash"/>
-<wire x1="121.92" y1="53.34" x2="121.92" y2="134.62" width="0.4064" layer="98" style="longdash"/>
+<wire x1="121.92" y1="134.62" x2="271.78" y2="134.62" width="0.4064" layer="98" style="longdash"/>
+<wire x1="271.78" y1="134.62" x2="271.78" y2="66.04" width="0.4064" layer="98" style="longdash"/>
+<wire x1="271.78" y1="66.04" x2="121.92" y2="66.04" width="0.4064" layer="98" style="longdash"/>
+<wire x1="121.92" y1="66.04" x2="121.92" y2="134.62" width="0.4064" layer="98" style="longdash"/>
 <text x="124.46" y="129.54" size="2.54" layer="98" font="vector" ratio="15">Pins</text>
-<wire x1="121.92" y1="48.26" x2="256.54" y2="48.26" width="0.4064" layer="98" style="longdash"/>
-<wire x1="256.54" y1="48.26" x2="256.54" y2="10.16" width="0.4064" layer="98" style="longdash"/>
-<wire x1="256.54" y1="10.16" x2="121.92" y2="10.16" width="0.4064" layer="98" style="longdash"/>
-<wire x1="121.92" y1="10.16" x2="121.92" y2="48.26" width="0.4064" layer="98" style="longdash"/>
-<wire x1="261.62" y1="248.92" x2="322.58" y2="248.92" width="0.4064" layer="98" style="longdash"/>
+<wire x1="121.92" y1="60.96" x2="271.78" y2="60.96" width="0.4064" layer="98" style="longdash"/>
+<wire x1="271.78" y1="60.96" x2="271.78" y2="45.72" width="0.4064" layer="98" style="longdash"/>
+<wire x1="271.78" y1="45.72" x2="121.92" y2="45.72" width="0.4064" layer="98" style="longdash"/>
+<wire x1="121.92" y1="45.72" x2="121.92" y2="60.96" width="0.4064" layer="98" style="longdash"/>
+<wire x1="276.86" y1="248.92" x2="322.58" y2="248.92" width="0.4064" layer="98" style="longdash"/>
 <wire x1="322.58" y1="248.92" x2="322.58" y2="172.72" width="0.4064" layer="98" style="longdash"/>
-<wire x1="322.58" y1="172.72" x2="261.62" y2="172.72" width="0.4064" layer="98" style="longdash"/>
-<wire x1="261.62" y1="172.72" x2="261.62" y2="248.92" width="0.4064" layer="98" style="longdash"/>
-<text x="264.16" y="243.84" size="2.54" layer="98" font="vector" ratio="15">LEDs</text>
-<wire x1="261.62" y1="167.64" x2="322.58" y2="167.64" width="0.4064" layer="98" style="longdash"/>
+<wire x1="322.58" y1="172.72" x2="276.86" y2="172.72" width="0.4064" layer="98" style="longdash"/>
+<wire x1="276.86" y1="172.72" x2="276.86" y2="248.92" width="0.4064" layer="98" style="longdash"/>
+<text x="281.94" y="243.84" size="2.54" layer="98" font="vector" ratio="15">LEDs</text>
+<wire x1="276.86" y1="167.64" x2="322.58" y2="167.64" width="0.4064" layer="98" style="longdash"/>
 <wire x1="322.58" y1="167.64" x2="322.58" y2="104.14" width="0.4064" layer="98" style="longdash"/>
-<wire x1="322.58" y1="104.14" x2="261.62" y2="104.14" width="0.4064" layer="98" style="longdash"/>
-<wire x1="261.62" y1="104.14" x2="261.62" y2="167.64" width="0.4064" layer="98" style="longdash"/>
+<wire x1="322.58" y1="104.14" x2="276.86" y2="104.14" width="0.4064" layer="98" style="longdash"/>
+<wire x1="276.86" y1="104.14" x2="276.86" y2="167.64" width="0.4064" layer="98" style="longdash"/>
 </plain>
 <instances>
 <instance part="IC1" gate="PORTA_L" x="48.26" y="220.98"/>
@@ -12463,9 +12463,9 @@ decoupling capacitors</text>
 <instance part="+3V3" gate="G$1" x="358.14" y="200.66" rot="MR0"/>
 <instance part="R10" gate="G$1" x="353.06" y="190.5" rot="MR0"/>
 <instance part="R11" gate="G$1" x="353.06" y="223.52" rot="MR0"/>
-<instance part="R15" gate="G$1" x="269.24" y="215.9" rot="MR90"/>
-<instance part="LD6" gate="G$1" x="269.24" y="203.2"/>
-<instance part="+3V7" gate="G$1" x="269.24" y="233.68" rot="MR0"/>
+<instance part="R15" gate="G$1" x="284.48" y="215.9" rot="MR90"/>
+<instance part="LD6" gate="G$1" x="284.48" y="203.2"/>
+<instance part="+3V7" gate="G$1" x="284.48" y="233.68" rot="MR0"/>
 <instance part="R16" gate="G$1" x="353.06" y="154.94" rot="MR270"/>
 <instance part="+3V8" gate="G$1" x="353.06" y="165.1" rot="MR0"/>
 <instance part="R17" gate="G$1" x="353.06" y="114.3" rot="MR270"/>
@@ -12475,12 +12475,12 @@ decoupling capacitors</text>
 <instance part="+3V12" gate="G$1" x="45.72" y="78.74" rot="MR0"/>
 <instance part="+3V13" gate="G$1" x="71.12" y="48.26" rot="MR0"/>
 <instance part="+3V14" gate="G$1" x="104.14" y="48.26" rot="MR0"/>
-<instance part="LD7" gate="G$1" x="284.48" y="203.2"/>
-<instance part="R8" gate="G$1" x="284.48" y="215.9" rot="R270"/>
+<instance part="LD7" gate="G$1" x="299.72" y="203.2"/>
+<instance part="R8" gate="G$1" x="299.72" y="215.9" rot="R270"/>
 <instance part="U1" gate="G$1" x="215.9" y="236.22"/>
 <instance part="+3V6" gate="G$1" x="246.38" y="241.3" rot="MR0"/>
-<instance part="R9" gate="G$1" x="299.72" y="215.9" rot="MR90"/>
-<instance part="LD8" gate="G$1" x="299.72" y="203.2"/>
+<instance part="R9" gate="G$1" x="314.96" y="215.9" rot="MR90"/>
+<instance part="LD8" gate="G$1" x="314.96" y="203.2"/>
 <instance part="L2" gate="G$1" x="88.9" y="73.66"/>
 <instance part="+3V16" gate="G$1" x="96.52" y="78.74" rot="MR0"/>
 <instance part="C1" gate="G$1" x="78.74" y="129.54"/>
@@ -12497,7 +12497,7 @@ decoupling capacitors</text>
 <instance part="C13" gate="G$1" x="353.06" y="101.6" rot="R270"/>
 <instance part="C7" gate="G$1" x="68.58" y="68.58" rot="R270"/>
 <instance part="GND28" gate="1" x="127" y="226.06" rot="R270"/>
-<instance part="GND29" gate="1" x="284.48" y="187.96"/>
+<instance part="GND29" gate="1" x="299.72" y="187.96"/>
 <instance part="GND6" gate="1" x="190.5" y="226.06"/>
 <instance part="GND24" gate="1" x="246.38" y="223.52"/>
 <instance part="GND30" gate="1" x="149.86" y="175.26"/>
@@ -12509,8 +12509,8 @@ decoupling capacitors</text>
 <instance part="GND3" gate="1" x="88.9" y="114.3"/>
 <instance part="GND16" gate="1" x="88.9" y="91.44"/>
 <instance part="GND1" gate="1" x="86.36" y="152.4"/>
-<instance part="GND15" gate="1" x="299.72" y="187.96"/>
-<instance part="GND33" gate="1" x="269.24" y="187.96"/>
+<instance part="GND15" gate="1" x="314.96" y="187.96"/>
+<instance part="GND33" gate="1" x="284.48" y="187.96"/>
 <instance part="GND10" gate="1" x="45.72" y="58.42"/>
 <instance part="GND12" gate="1" x="71.12" y="30.48"/>
 <instance part="GND34" gate="1" x="68.58" y="58.42"/>
@@ -12521,45 +12521,45 @@ decoupling capacitors</text>
 <instance part="GND31" gate="1" x="353.06" y="93.98"/>
 <instance part="GND7" gate="1" x="373.38" y="147.32" rot="R90"/>
 <instance part="GND8" gate="1" x="373.38" y="106.68" rot="R90"/>
-<instance part="R1" gate="G$1" x="218.44" y="119.38" rot="R270"/>
-<instance part="R13" gate="G$1" x="223.52" y="119.38" rot="R270"/>
-<instance part="R14" gate="G$1" x="228.6" y="119.38" rot="R270"/>
-<instance part="R19" gate="G$1" x="233.68" y="119.38" rot="R270"/>
-<instance part="R20" gate="G$1" x="231.14" y="91.44"/>
-<instance part="GND2" gate="1" x="241.3" y="91.44" rot="R90"/>
-<instance part="GND13" gate="1" x="190.5" y="93.98" rot="R270"/>
+<instance part="R1" gate="G$1" x="226.06" y="116.84" rot="R270"/>
+<instance part="R13" gate="G$1" x="233.68" y="116.84" rot="R270"/>
+<instance part="R14" gate="G$1" x="241.3" y="116.84" rot="R270"/>
+<instance part="R19" gate="G$1" x="248.92" y="116.84" rot="R270"/>
+<instance part="R20" gate="G$1" x="243.84" y="88.9"/>
+<instance part="GND2" gate="1" x="254" y="88.9" rot="R90"/>
+<instance part="GND13" gate="1" x="203.2" y="91.44" rot="R270"/>
 <instance part="JP6" gate="A" x="215.9" y="185.42"/>
 <instance part="+3V4" gate="G$1" x="22.86" y="172.72" rot="MR270"/>
 <instance part="+3V5" gate="G$1" x="99.06" y="172.72" rot="MR90"/>
-<instance part="GND4" gate="1" x="167.64" y="91.44" rot="R90"/>
-<instance part="P+4" gate="1" x="284.48" y="233.68"/>
-<instance part="+3V15" gate="G$1" x="223.52" y="129.54" rot="MR0"/>
-<instance part="P+3" gate="1" x="129.54" y="104.14" rot="R90"/>
-<instance part="GND14" gate="1" x="167.64" y="104.14" rot="R90"/>
-<instance part="P+5" gate="1" x="132.08" y="91.44" rot="R90"/>
-<instance part="GND17" gate="1" x="190.5" y="86.36" rot="R270"/>
-<instance part="Q3" gate="G$1" x="276.86" y="139.7" smashed="yes" rot="MR0">
-<attribute name="NAME" x="269.24" y="142.24" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="269.24" y="160.02" size="1.778" layer="96" rot="MR270"/>
+<instance part="GND4" gate="1" x="187.96" y="88.9" rot="R90"/>
+<instance part="P+4" gate="1" x="299.72" y="233.68"/>
+<instance part="+3V15" gate="G$1" x="233.68" y="129.54" rot="MR0"/>
+<instance part="P+3" gate="1" x="124.46" y="101.6" rot="R90"/>
+<instance part="GND14" gate="1" x="187.96" y="101.6" rot="R90"/>
+<instance part="P+5" gate="1" x="124.46" y="88.9" rot="R90"/>
+<instance part="GND17" gate="1" x="203.2" y="83.82" rot="R270"/>
+<instance part="Q3" gate="G$1" x="302.26" y="137.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="287.02" y="132.08" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="292.1" y="147.32" size="1.778" layer="96" rot="MR270"/>
 </instance>
-<instance part="R3" gate="G$1" x="274.32" y="124.46" rot="R270"/>
-<instance part="R5" gate="G$1" x="284.48" y="129.54" rot="R90"/>
-<instance part="R18" gate="G$1" x="284.48" y="149.86" rot="R90"/>
-<instance part="R22" gate="G$1" x="294.64" y="139.7" rot="R180"/>
-<instance part="+3V10" gate="G$1" x="274.32" y="162.56" rot="MR0"/>
-<instance part="P+7" gate="1" x="284.48" y="162.56"/>
-<instance part="GND18" gate="1" x="284.48" y="116.84"/>
-<instance part="H1" gate="G$1" x="157.48" y="30.48"/>
-<instance part="H2" gate="G$1" x="172.72" y="30.48"/>
-<instance part="H3" gate="G$1" x="187.96" y="30.48"/>
-<instance part="H4" gate="G$1" x="203.2" y="30.48"/>
+<instance part="R3" gate="G$1" x="299.72" y="121.92" rot="R270"/>
+<instance part="R5" gate="G$1" x="309.88" y="127" rot="R90"/>
+<instance part="R18" gate="G$1" x="309.88" y="147.32" rot="R90"/>
+<instance part="R22" gate="G$1" x="317.5" y="132.08" rot="R90"/>
+<instance part="+3V10" gate="G$1" x="299.72" y="157.48" rot="MR0"/>
+<instance part="P+7" gate="1" x="309.88" y="157.48"/>
+<instance part="GND18" gate="1" x="309.88" y="114.3"/>
+<instance part="H1" gate="G$1" x="149.86" y="53.34"/>
+<instance part="H2" gate="G$1" x="177.8" y="53.34"/>
+<instance part="H3" gate="G$1" x="205.74" y="53.34"/>
+<instance part="H4" gate="G$1" x="231.14" y="53.34"/>
 <instance part="IC2" gate="G$1" x="165.1" y="190.5"/>
 <instance part="IC3" gate="G$1" x="165.1" y="162.56"/>
 <instance part="D2" gate="G$1" x="134.62" y="162.56"/>
 <instance part="GND20" gate="1" x="154.94" y="147.32"/>
 <instance part="GND21" gate="1" x="165.1" y="147.32"/>
 <instance part="GND22" gate="1" x="182.88" y="147.32"/>
-<instance part="+3V17" gate="G$1" x="220.98" y="91.44" rot="MR0"/>
+<instance part="+3V17" gate="G$1" x="233.68" y="88.9" rot="MR0"/>
 <instance part="J1" gate="G$1" x="223.52" y="160.02"/>
 <instance part="C5" gate="G$1" x="149.86" y="185.42" rot="R90"/>
 <instance part="C15" gate="G$1" x="182.88" y="185.42" rot="R90"/>
@@ -12572,8 +12572,8 @@ decoupling capacitors</text>
 <instance part="SUPPLY1" gate="1" x="193.04" y="215.9" rot="R90"/>
 <instance part="L3" gate="G$1" x="144.78" y="162.56"/>
 <instance part="D1" gate="G$1" x="203.2" y="215.9"/>
-<instance part="JP1" gate="A" x="152.4" y="91.44"/>
-<instance part="JP9" gate="A" x="205.74" y="91.44"/>
+<instance part="JP1" gate="A" x="157.48" y="88.9"/>
+<instance part="JP9" gate="A" x="218.44" y="88.9"/>
 <instance part="NRST" gate="G$1" x="360.68" y="147.32" rot="R270"/>
 <instance part="USRBT" gate="G$1" x="360.68" y="106.68" rot="R270"/>
 <instance part="BOOT0" gate="A" x="370.84" y="190.5"/>
@@ -12666,14 +12666,14 @@ decoupling capacitors</text>
 <label x="91.44" y="147.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="246.38" y="93.98" size="1.778" layer="95" xref="yes"/>
-<wire x1="246.38" y1="93.98" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
+<label x="261.62" y="91.44" size="1.778" layer="95" xref="yes"/>
+<wire x1="261.62" y1="91.44" x2="231.14" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="A" pin="10"/>
-<wire x1="218.44" y1="93.98" x2="210.82" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="93.98" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
-<junction x="218.44" y="93.98"/>
+<wire x1="231.14" y1="91.44" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="91.44" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
+<junction x="231.14" y="91.44"/>
 <pinref part="JP9" gate="A" pin="12"/>
-<wire x1="218.44" y1="91.44" x2="210.82" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
@@ -12695,12 +12695,12 @@ decoupling capacitors</text>
 <label x="20.32" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="236.22" y="96.52" size="1.778" layer="95" xref="yes"/>
+<label x="251.46" y="93.98" size="1.778" layer="95" xref="yes"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="96.52" x2="236.22" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="114.3" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="96.52" x2="210.82" y2="96.52" width="0.1524" layer="91"/>
-<junction x="228.6" y="96.52"/>
+<wire x1="241.3" y1="93.98" x2="251.46" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="111.76" x2="241.3" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="93.98" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
+<junction x="241.3" y="93.98"/>
 <pinref part="JP9" gate="A" pin="8"/>
 </segment>
 </net>
@@ -12711,12 +12711,12 @@ decoupling capacitors</text>
 <label x="30.48" y="185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="236.22" y="101.6" size="1.778" layer="95" xref="yes"/>
+<label x="251.46" y="99.06" size="1.778" layer="95" xref="yes"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="101.6" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="91.44" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="101.6" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
-<junction x="226.06" y="101.6"/>
+<wire x1="238.76" y1="99.06" x2="251.46" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="88.9" x2="238.76" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="99.06" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
+<junction x="238.76" y="99.06"/>
 <pinref part="JP9" gate="A" pin="4"/>
 </segment>
 </net>
@@ -12727,12 +12727,12 @@ decoupling capacitors</text>
 <label x="20.32" y="187.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="246.38" y="104.14" size="1.778" layer="95" xref="yes"/>
+<label x="261.62" y="101.6" size="1.778" layer="95" xref="yes"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="104.14" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="114.3" x2="223.52" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="104.14" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
-<junction x="223.52" y="104.14"/>
+<wire x1="233.68" y1="101.6" x2="261.62" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="111.76" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
+<junction x="233.68" y="101.6"/>
 <pinref part="JP9" gate="A" pin="2"/>
 </segment>
 </net>
@@ -12768,8 +12768,8 @@ decoupling capacitors</text>
 </segment>
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="299.72" y1="139.7" x2="304.8" y2="139.7" width="0.1524" layer="91"/>
-<label x="304.8" y="139.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="317.5" y1="127" x2="317.5" y2="114.3" width="0.1524" layer="91"/>
+<label x="317.5" y="114.3" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="PA9" class="0">
@@ -12779,8 +12779,8 @@ decoupling capacitors</text>
 <label x="20.32" y="198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="172.72" y="101.6" size="1.778" layer="95" xref="yes"/>
-<wire x1="157.48" y1="101.6" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
+<label x="180.34" y="99.06" size="1.778" layer="95" xref="yes"/>
+<wire x1="162.56" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="4"/>
 </segment>
 </net>
@@ -12791,8 +12791,8 @@ decoupling capacitors</text>
 <label x="30.48" y="200.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="144.78" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
+<label x="147.32" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="96.52" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="5"/>
 </segment>
 </net>
@@ -12803,8 +12803,8 @@ decoupling capacitors</text>
 <label x="20.32" y="210.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="162.56" y="86.36" size="1.778" layer="95" xref="yes"/>
-<wire x1="157.48" y1="86.36" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
+<label x="170.18" y="83.82" size="1.778" layer="95" xref="yes"/>
+<wire x1="162.56" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="16"/>
 </segment>
 </net>
@@ -12815,8 +12815,8 @@ decoupling capacitors</text>
 <label x="30.48" y="213.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="134.62" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="83.82" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
+<label x="139.7" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="81.28" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="17"/>
 </segment>
 </net>
@@ -12827,8 +12827,8 @@ decoupling capacitors</text>
 <label x="20.32" y="215.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="172.72" y="83.82" size="1.778" layer="95" xref="yes"/>
-<wire x1="157.48" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
+<label x="177.8" y="81.28" size="1.778" layer="95" xref="yes"/>
+<wire x1="162.56" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="18"/>
 </segment>
 </net>
@@ -12839,8 +12839,8 @@ decoupling capacitors</text>
 <label x="30.48" y="218.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="144.78" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="81.28" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
+<label x="147.32" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="19"/>
 </segment>
 </net>
@@ -12851,8 +12851,8 @@ decoupling capacitors</text>
 <label x="20.32" y="220.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="162.56" y="81.28" size="1.778" layer="95" xref="yes"/>
-<wire x1="157.48" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
+<label x="170.18" y="78.74" size="1.778" layer="95" xref="yes"/>
+<wire x1="162.56" y1="78.74" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="20"/>
 </segment>
 </net>
@@ -12863,8 +12863,8 @@ decoupling capacitors</text>
 <label x="30.48" y="223.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="134.62" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="134.62" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
+<label x="139.7" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="139.7" y1="76.2" x2="154.94" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="21"/>
 </segment>
 </net>
@@ -12875,8 +12875,8 @@ decoupling capacitors</text>
 <label x="20.32" y="226.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="172.72" y="78.74" size="1.778" layer="95" xref="yes"/>
-<wire x1="157.48" y1="78.74" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
+<label x="177.8" y="76.2" size="1.778" layer="95" xref="yes"/>
+<wire x1="162.56" y1="76.2" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="22"/>
 </segment>
 </net>
@@ -12887,8 +12887,8 @@ decoupling capacitors</text>
 <label x="30.48" y="228.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="144.78" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="76.2" x2="144.78" y2="76.2" width="0.1524" layer="91"/>
+<label x="147.32" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="23"/>
 </segment>
 </net>
@@ -12899,8 +12899,8 @@ decoupling capacitors</text>
 <label x="101.6" y="182.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="162.56" y="99.06" size="1.778" layer="95" xref="yes"/>
-<wire x1="157.48" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
+<label x="170.18" y="96.52" size="1.778" layer="95" xref="yes"/>
+<wire x1="162.56" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="6"/>
 </segment>
 </net>
@@ -12911,8 +12911,8 @@ decoupling capacitors</text>
 <label x="91.44" y="185.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="132.08" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
+<label x="137.16" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="93.98" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="7"/>
 </segment>
 </net>
@@ -12923,8 +12923,8 @@ decoupling capacitors</text>
 <label x="101.6" y="187.96" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="172.72" y="96.52" size="1.778" layer="95" xref="yes"/>
-<wire x1="157.48" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
+<label x="180.34" y="93.98" size="1.778" layer="95" xref="yes"/>
+<wire x1="162.56" y1="93.98" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="8"/>
 </segment>
 </net>
@@ -12935,8 +12935,8 @@ decoupling capacitors</text>
 <label x="91.44" y="190.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="144.78" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
+<label x="147.32" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="91.44" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="9"/>
 </segment>
 </net>
@@ -12947,8 +12947,8 @@ decoupling capacitors</text>
 <label x="101.6" y="193.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="162.56" y="93.98" size="1.778" layer="95" xref="yes"/>
-<wire x1="157.48" y1="93.98" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
+<label x="170.18" y="91.44" size="1.778" layer="95" xref="yes"/>
+<wire x1="162.56" y1="91.44" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="10"/>
 </segment>
 </net>
@@ -12959,8 +12959,8 @@ decoupling capacitors</text>
 <label x="91.44" y="195.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="132.08" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
+<label x="139.7" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="86.36" x2="139.7" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="13"/>
 </segment>
 </net>
@@ -12971,14 +12971,14 @@ decoupling capacitors</text>
 <label x="101.6" y="198.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="210.82" y="68.58" size="1.778" layer="95" rot="R270" xref="yes"/>
-<wire x1="210.82" y1="76.2" x2="210.82" y2="68.58" width="0.1524" layer="91"/>
+<label x="231.14" y="73.66" size="1.778" layer="95" xref="yes"/>
+<wire x1="223.52" y1="73.66" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="A" pin="24"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="299.72" y1="220.98" x2="299.72" y2="233.68" width="0.1524" layer="91"/>
-<label x="299.72" y="233.68" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="314.96" y1="220.98" x2="314.96" y2="233.68" width="0.1524" layer="91"/>
+<label x="314.96" y="233.68" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="PB8" class="0">
@@ -12988,8 +12988,8 @@ decoupling capacitors</text>
 <label x="91.44" y="200.66" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="203.2" y="68.58" size="1.778" layer="95" rot="R270" xref="yes"/>
-<wire x1="203.2" y1="76.2" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
+<label x="208.28" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="215.9" y1="73.66" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="A" pin="23"/>
 </segment>
 </net>
@@ -13000,8 +13000,8 @@ decoupling capacitors</text>
 <label x="101.6" y="210.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="223.52" y="78.74" size="1.778" layer="95" xref="yes"/>
-<wire x1="210.82" y1="78.74" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
+<label x="238.76" y="76.2" size="1.778" layer="95" xref="yes"/>
+<wire x1="223.52" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="A" pin="22"/>
 </segment>
 </net>
@@ -13012,8 +13012,8 @@ decoupling capacitors</text>
 <label x="91.44" y="213.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="195.58" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="203.2" y1="78.74" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
+<label x="200.66" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="215.9" y1="76.2" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="A" pin="21"/>
 </segment>
 </net>
@@ -13024,8 +13024,8 @@ decoupling capacitors</text>
 <label x="101.6" y="215.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="215.9" y="81.28" size="1.778" layer="95" xref="yes"/>
-<wire x1="210.82" y1="81.28" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
+<label x="231.14" y="78.74" size="1.778" layer="95" xref="yes"/>
+<wire x1="223.52" y1="78.74" x2="231.14" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="A" pin="20"/>
 </segment>
 </net>
@@ -13037,15 +13037,15 @@ decoupling capacitors</text>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="111.76" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="111.76" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="111.76" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
-<label x="210.82" y="114.3" size="1.778" layer="95" rot="R90" xref="yes"/>
-<wire x1="210.82" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
-<junction x="210.82" y="111.76"/>
+<wire x1="226.06" y1="109.22" x2="226.06" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="109.22" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="109.22" x2="218.44" y2="111.76" width="0.1524" layer="91"/>
+<label x="218.44" y="111.76" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="218.44" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
+<junction x="218.44" y="109.22"/>
 <pinref part="JP9" gate="A" pin="11"/>
-<wire x1="203.2" y1="91.44" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="91.44" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="88.9" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="88.9" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="JTDO" class="0">
@@ -13055,12 +13055,12 @@ decoupling capacitors</text>
 <label x="101.6" y="220.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="246.38" y="99.06" size="1.778" layer="95" xref="yes"/>
+<label x="261.62" y="96.52" size="1.778" layer="95" xref="yes"/>
 <pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="233.68" y1="99.06" x2="246.38" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="114.3" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="99.06" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
-<junction x="233.68" y="99.06"/>
+<wire x1="248.92" y1="96.52" x2="261.62" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="111.76" x2="248.92" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="96.52" x2="223.52" y2="96.52" width="0.1524" layer="91"/>
+<junction x="248.92" y="96.52"/>
 <pinref part="JP9" gate="A" pin="6"/>
 </segment>
 </net>
@@ -13078,8 +13078,8 @@ decoupling capacitors</text>
 <label x="101.6" y="226.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="172.72" y="88.9" size="1.778" layer="95" xref="yes"/>
-<wire x1="157.48" y1="88.9" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
+<label x="177.8" y="86.36" size="1.778" layer="95" xref="yes"/>
+<wire x1="162.56" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="14"/>
 </segment>
 </net>
@@ -13090,8 +13090,8 @@ decoupling capacitors</text>
 <label x="91.44" y="228.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="144.78" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="86.36" x2="144.78" y2="86.36" width="0.1524" layer="91"/>
+<label x="147.32" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="83.82" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="15"/>
 </segment>
 </net>
@@ -13099,22 +13099,22 @@ decoupling capacitors</text>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="284.48" y1="220.98" x2="284.48" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="220.98" x2="299.72" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="132.08" y1="104.14" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
-<wire x1="134.62" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="127" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="11"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<wire x1="284.48" y1="154.94" x2="284.48" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="152.4" x2="309.88" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+6" gate="1" pin="+5V"/>
@@ -13149,7 +13149,7 @@ decoupling capacitors</text>
 <segment>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="269.24" y1="231.14" x2="269.24" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="231.14" x2="284.48" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -13232,42 +13232,42 @@ decoupling capacitors</text>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="124.46" x2="233.68" y2="124.46" width="0.1524" layer="91"/>
-<junction x="228.6" y="124.46"/>
+<wire x1="241.3" y1="121.92" x2="248.92" y2="121.92" width="0.1524" layer="91"/>
+<junction x="241.3" y="121.92"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="124.46" x2="228.6" y2="124.46" width="0.1524" layer="91"/>
-<junction x="223.52" y="124.46"/>
+<wire x1="233.68" y1="121.92" x2="241.3" y2="121.92" width="0.1524" layer="91"/>
+<junction x="233.68" y="121.92"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="124.46" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="121.92" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="+3V15" gate="G$1" pin="+3V3"/>
-<wire x1="223.52" y1="127" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="104.14" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
-<junction x="218.44" y="124.46"/>
+<wire x1="233.68" y1="127" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="101.6" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="101.6" x2="208.28" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="121.92" x2="226.06" y2="121.92" width="0.1524" layer="91"/>
+<junction x="226.06" y="121.92"/>
 <pinref part="JP9" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="Q3" gate="G$1" pin="C"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
-<wire x1="274.32" y1="144.78" x2="274.32" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="142.24" x2="299.72" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V17" gate="G$1" pin="+3V3"/>
 <pinref part="JP9" gate="A" pin="14"/>
-<wire x1="220.98" y1="88.9" x2="218.44" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="86.36" x2="231.14" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="JP9" gate="A" pin="16"/>
-<wire x1="218.44" y1="88.9" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="86.36" x2="218.44" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="86.36" x2="218.44" y2="88.9" width="0.1524" layer="91"/>
-<junction x="218.44" y="88.9"/>
+<wire x1="231.14" y1="86.36" x2="223.52" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="83.82" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="83.82" x2="231.14" y2="86.36" width="0.1524" layer="91"/>
+<junction x="231.14" y="86.36"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="LD6" gate="G$1" pin="A"/>
-<wire x1="269.24" y1="210.82" x2="269.24" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="210.82" x2="284.48" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDDA" class="0">
@@ -13303,8 +13303,8 @@ decoupling capacitors</text>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="119.38" x2="274.32" y2="116.84" width="0.1524" layer="91"/>
-<label x="274.32" y="116.84" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="299.72" y1="116.84" x2="299.72" y2="114.3" width="0.1524" layer="91"/>
+<label x="299.72" y="114.3" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="DM" class="0">
@@ -13345,7 +13345,7 @@ decoupling capacitors</text>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="LD8" gate="G$1" pin="A"/>
-<wire x1="299.72" y1="210.82" x2="299.72" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="210.82" x2="314.96" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC_EXT" class="0">
@@ -13365,7 +13365,7 @@ decoupling capacitors</text>
 <segment>
 <pinref part="LD7" gate="G$1" pin="A"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="284.48" y1="205.74" x2="284.48" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="205.74" x2="299.72" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BOOT1" class="0">
@@ -13393,7 +13393,7 @@ decoupling capacitors</text>
 </segment>
 <segment>
 <pinref part="LD7" gate="G$1" pin="C"/>
-<wire x1="284.48" y1="190.5" x2="284.48" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="190.5" x2="299.72" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="GND29" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -13464,12 +13464,12 @@ decoupling capacitors</text>
 </segment>
 <segment>
 <pinref part="LD6" gate="G$1" pin="C"/>
-<wire x1="269.24" y1="198.12" x2="269.24" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="198.12" x2="284.48" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="LD8" gate="G$1" pin="C"/>
-<wire x1="299.72" y1="198.12" x2="299.72" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="198.12" x2="314.96" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -13527,35 +13527,35 @@ decoupling capacitors</text>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="236.22" y1="91.44" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="88.9" x2="251.46" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="157.48" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="12"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="165.1" y1="104.14" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="193.04" y1="93.98" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="93.98" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="99.06" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="101.6" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
-<junction x="195.58" y="99.06"/>
-<wire x1="203.2" y1="93.98" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
-<junction x="195.58" y="93.98"/>
+<wire x1="205.74" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="91.44" x2="208.28" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="96.52" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="99.06" x2="215.9" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="96.52" x2="208.28" y2="96.52" width="0.1524" layer="91"/>
+<junction x="208.28" y="96.52"/>
+<wire x1="215.9" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
+<junction x="208.28" y="91.44"/>
 <pinref part="JP9" gate="A" pin="3"/>
 <pinref part="JP9" gate="A" pin="5"/>
 <pinref part="JP9" gate="A" pin="9"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="119.38" x2="284.48" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="116.84" x2="309.88" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -13591,12 +13591,12 @@ decoupling capacitors</text>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="JP9" gate="A" pin="15"/>
-<wire x1="193.04" y1="86.36" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="86.36" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
-<junction x="195.58" y="86.36"/>
+<wire x1="205.74" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="83.82" x2="215.9" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="83.82" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
+<junction x="208.28" y="83.82"/>
 <pinref part="JP9" gate="A" pin="13"/>
-<wire x1="195.58" y1="88.9" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="86.36" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -13610,20 +13610,20 @@ decoupling capacitors</text>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="134.62" x2="284.48" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="132.08" x2="309.88" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="B"/>
-<wire x1="284.48" y1="139.7" x2="284.48" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="139.7" x2="284.48" y2="139.7" width="0.1524" layer="91"/>
-<junction x="284.48" y="139.7"/>
+<wire x1="309.88" y1="137.16" x2="309.88" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="137.16" x2="309.88" y2="137.16" width="0.1524" layer="91"/>
+<junction x="309.88" y="137.16"/>
 <pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="289.56" y1="139.7" x2="284.48" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="137.16" x2="309.88" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="Q3" gate="G$1" pin="E"/>
-<wire x1="274.32" y1="129.54" x2="274.32" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="127" x2="299.72" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
