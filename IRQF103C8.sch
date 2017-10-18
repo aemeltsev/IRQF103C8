@@ -12390,6 +12390,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="USRBT" library="switch-misc" deviceset="FSM" device=""/>
 <part name="BOOT0" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="BOOT1" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="R2" library="resistor" deviceset="R-US_" device="M0805" value="910k"/>
+<part name="C8" library="cap-master" deviceset="CP-" device="3216"/>
 </parts>
 <sheets>
 <sheet>
@@ -12578,6 +12580,8 @@ decoupling capacitors</text>
 <instance part="USRBT" gate="G$1" x="360.68" y="106.68" rot="R270"/>
 <instance part="BOOT0" gate="A" x="370.84" y="190.5"/>
 <instance part="BOOT1" gate="A" x="370.84" y="223.52"/>
+<instance part="R2" gate="G$1" x="66.04" y="88.9" rot="R270"/>
+<instance part="C8" gate="G$1" x="78.74" y="68.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -12633,6 +12637,9 @@ decoupling capacitors</text>
 <wire x1="76.2" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
 <junction x="71.12" y="96.52"/>
 <pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="83.82" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -12641,11 +12648,15 @@ decoupling capacitors</text>
 <wire x1="43.18" y1="99.06" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="99.06" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="106.68" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="106.68" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
 <junction x="71.12" y="106.68"/>
 <pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="93.98" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
+<junction x="66.04" y="106.68"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -13283,6 +13294,8 @@ decoupling capacitors</text>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="71.12" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
 <junction x="68.58" y="73.66"/>
+<pinref part="C8" gate="G$1" pin="+"/>
+<wire x1="78.74" y1="71.12" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="AN_POWER" pin="VDDA"/>
@@ -13475,7 +13488,12 @@ decoupling capacitors</text>
 <segment>
 <pinref part="GND34" gate="1" pin="GND"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="66.04" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="66.04" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="-"/>
+<wire x1="68.58" y1="63.5" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="66.04" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
+<junction x="68.58" y="63.5"/>
 </segment>
 <segment>
 <pinref part="C20" gate="G$1" pin="2"/>
