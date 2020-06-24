@@ -3,7 +3,7 @@
 <eagle version="9.0.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -10645,6 +10645,11 @@ decoupling capacitors</text>
 <wire x1="317.5" y1="127" x2="317.5" y2="114.3" width="0.1524" layer="91"/>
 <label x="317.5" y="114.3" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="154.94" y1="99.06" x2="139.7" y2="99.06" width="0.1524" layer="91"/>
+<label x="139.7" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PA9" class="0">
 <segment>
@@ -10653,9 +10658,9 @@ decoupling capacitors</text>
 <label x="20.32" y="198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="180.34" y="99.06" size="1.778" layer="95" xref="yes"/>
-<wire x1="162.56" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="4"/>
+<wire x1="162.56" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
+<label x="180.34" y="99.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PA8" class="0">
